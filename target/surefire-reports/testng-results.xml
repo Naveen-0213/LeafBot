@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43855" started-at="2023-02-09T10:01:33 IST" finished-at="2023-02-09T10:02:17 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC003_LoginUsingCucumber@1990a65e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="43855" started-at="2023-02-09T10:01:33 IST" finished-at="2023-02-09T10:02:17 IST">
+      <class name="com.leafBot.testcases.TC003_LoginUsingCucumber">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leafBot.testcases.TC003_LoginUsingCucumber@1990a65e]" name="startReport" is-config="true" duration-ms="900" started-at="2023-02-09T10:01:32 IST" finished-at="2023-02-09T10:01:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.leafBot.testcases.TC003_LoginUsingCucumber@1990a65e]" name="setValues" is-config="true" duration-ms="1" started-at="2023-02-09T10:01:33 IST" finished-at="2023-02-09T10:01:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC003_LoginUsingCucumber@1990a65e]" name="setUpClass" is-config="true" duration-ms="506" started-at="2023-02-09T10:01:33 IST" finished-at="2023-02-09T10:01:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC003_LoginUsingCucumber@1990a65e]" name="report" is-config="true" duration-ms="9" started-at="2023-02-09T10:01:33 IST" finished-at="2023-02-09T10:01:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC003_LoginUsingCucumber@1990a65e]" name="beforeMethod" is-config="true" duration-ms="33895" started-at="2023-02-09T10:01:33 IST" finished-at="2023-02-09T10:02:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC003_LoginUsingCucumber@1990a65e]" name="runScenario" duration-ms="9108" started-at="2023-02-09T10:02:07 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-09T10:02:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with positive data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login salesforce]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+at com.leafBot.selenium.api.base.SeleniumBase.locateElement(SeleniumBase.java:293)
+at com.leafBot.pages.HomePage.verifyHomepage(HomePage.java:16)
+at ✽.Homepage should be displayed(file:///C:/Users/Admin/selenium-frameworks/LeafBot/src/main/java/features/F01_Login.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC003_LoginUsingCucumber@1990a65e]" name="afterMethod" is-config="true" duration-ms="247" started-at="2023-02-09T10:02:16 IST" finished-at="2023-02-09T10:02:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC003_LoginUsingCucumber@1990a65e]" name="tearDownClass" is-config="true" duration-ms="22" started-at="2023-02-09T10:02:17 IST" finished-at="2023-02-09T10:02:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.leafBot.testcases.TC003_LoginUsingCucumber@1990a65e]" name="stopReport" is-config="true" duration-ms="551" started-at="2023-02-09T10:02:17 IST" finished-at="2023-02-09T10:02:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.leafBot.testcases.TC003_LoginUsingCucumber -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
