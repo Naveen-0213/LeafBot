@@ -13,7 +13,7 @@ public class TC001_LoginLogOut extends ProjectSpecificMethods{
 		testCaseName = "Login and verify";
 		testDescription = "Login testCase using positive data";
 		nodes = "Login";
-		authors = "Hari";
+		authors = "Naveen";
 		category = "Smoke";
 		dataSheetName = "TC001";
 	}

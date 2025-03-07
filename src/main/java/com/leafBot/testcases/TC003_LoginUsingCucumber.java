@@ -16,7 +16,7 @@ public class TC003_LoginUsingCucumber extends ProjectSpecificMethods{
 		testCaseName = "Login and verify using cucumber";
 		testDescription = "Login testCase using positive data using cucumber";
 		nodes = "Login";
-		authors = "Hari";
+		authors = "Naveen";
 		category = "Smoke";
 	
 	}

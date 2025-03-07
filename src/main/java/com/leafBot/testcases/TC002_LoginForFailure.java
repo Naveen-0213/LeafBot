@@ -14,7 +14,7 @@ public class TC002_LoginForFailure extends ProjectSpecificMethods {
 		testCaseName = "Login(Negative)";
 		testDescription = "Login for Failure(Negative testCase)";
 		nodes = "Leads";
-		authors = "Hari";
+		authors = "Naveen";
 		category = "Smoke";
 
 		dataSheetName = "TC001a";
